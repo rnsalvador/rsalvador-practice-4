@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Orbitron:wght@400..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Verdana';
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(images/bg1.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
+.nav-container{
+    background-color: rgb(36, 34, 34);
+    padding: 15px 25px;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.5)
+}
+.logo{
+    margin: 0;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.5px;
+    font-family: "Orbitron", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 30px;
+    transition: 0.7s ease;
+}
+.navbar{
+    float: right;
+    list-style: none;
+    margin: 10px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: -37px;
+    margin-right: 50px;
+    justify-content: space-between;
+    font-weight: bold;
+    transition: 0.7s ease;
+}
+
+.company-brand{
+    font-family: "Orbitron", sans-serif;
+    font-weight: 1500;
+    font-size: 70px;
+    margin-top: 80px;
+    color:white;
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    text-align: center;
+    cursor: pointer;
+    text-shadow: 4px 4px 10px rgb(1, 185, 218);
+}
+.company-motto{
+    font-family: "Libre Baskerville", serif;
+    font-size: 13px;
+    margin: 20px auto;
+    letter-spacing: 0.8px;
+    line-height: 25px;
+    width: 100%;
+    position: absolute;
+    top: 52%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+.navbar a:hover{
+    text-shadow: 4px 4px 10px rgb(1, 185, 218);
+}
+.logo:hover{
+    text-shadow: 4px 4px 10px rgb(1, 185, 218);
+}
+
